@@ -423,3 +423,132 @@ btn:hover {
 .feature__cta {
     margin-top: 38px;
 }
+
+/* Member */
+.member__header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.member__btn {
+    margin-top: 38px;
+}
+
+.member__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 70px;
+    column-gap: 30px;
+}
+
+.member__item:hover .member__img {
+    transform: scale(1.1);
+}
+
+.member__image {
+    padding-top: 28px;
+    background: #eaf6ff;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.member__img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.25s;
+}
+
+.member__name {
+    display: block;
+    margin-top: 12px;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    text-align: center;
+    color: #10375c;
+}
+
+.member__desc {
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    text-align: center;
+    color: #575f66;
+}
+
+.member__control {
+    display: flex;
+    justify-content: center;
+    margin-top: 38px;
+    gap: 18px;
+}
+
+.member__control-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    color: #575f66;
+    outline: none;
+    background: #fff;
+    border: 1px solid #575f66;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.member__control-btn:hover {
+    color: #fff;
+    background: var(--primary-color);
+    border: #2e80ce;
+}
+
+.member__control-next {
+    rotate: 180deg;
+}
+
+/* Install */
+.install {
+    margin-top: 265px;
+}
+
+.install__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+    border-radius: 4px;
+    background: #2e80ce;
+}
+
+.install__img {
+    display: block;
+    margin-top: -95px;
+    width: 284px;
+    height: 522px;
+    object-fit: cover;
+}
+
+.install__content {
+    max-width: 586px;
+}
+
+.install__heading,
+.install__desc {
+    color: #fff;
+}
+
+.install__heading {
+    max-width: 489px;
+    margin-bottom: 18px;
+}
+
+.install__row {
+    display: flex;
+    column-gap: 28px;
+    margin-top: 38px;
+}
